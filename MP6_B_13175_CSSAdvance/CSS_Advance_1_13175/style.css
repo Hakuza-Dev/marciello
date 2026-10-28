@@ -1,0 +1,92 @@
+body {
+    background-color: #e8eef7;
+    color: #26344a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.formulir {
+    background-color: white;
+    width: 620px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #cbd5e1;
+    border-top: 7px solid #2864a8;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #245b96;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2 {
+    background-color: #eaf2fb;
+    color: #245b96;
+    font-size: 18px;
+    padding: 8px;
+    border-left: 4px solid #2864a8;
+}
+
+.pembuka {
+    text-align: center;
+    line-height: 1.6;
+    color: #526174;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], select, textarea {
+    display: block;
+    width: 96%;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #b8c5d6;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pilihan label {
+    margin-left: 8px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+.tombol {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #2864a8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #68778b;
+}
+
+input[type="submit"]:hover {
+    background-color: #174778;
+}
+
+.catatan {
+    text-align: center;
+    color: #6b7788;
+    font-size: 12px;
+    border-top: 1px solid #dbe2ea;
+    padding-top: 12px;
+}

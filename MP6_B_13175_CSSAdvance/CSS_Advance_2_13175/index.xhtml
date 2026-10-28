@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Workshop</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="formulir">
+        <h1>Pendaftaran Workshop</h1>
+        <p class="pembuka">Daftarkan diri untuk mengikuti workshop pilihanmu. Pastikan informasi kontak yang ditulis masih aktif.</p>
+        <form action="#" method="post">
+            <h2>Data Peserta</h2>
+            <p>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" />
+            </p>
+            <p>
+                <label for="email">Email Aktif</label>
+                <input type="text" id="email" name="email" />
+            </p>
+            <p>
+                <label for="telepon">Nomor WhatsApp</label>
+                <input type="text" id="telepon" name="telepon" />
+            </p>
+            <p>
+                <label for="instansi">Asal Sekolah / Kampus / Instansi</label>
+                <input type="text" id="instansi" name="instansi" />
+            </p>
+            <h2>Pilihan Workshop</h2>
+            <p>
+                <label for="workshop">Topik Workshop</label>
+                <select id="workshop" name="workshop">
+                    <option value="">-- Pilih topik --</option>
+                    <option value="web">Web Development Dasar</option>
+                    <option value="desain">Desain UI/UX</option>
+                    <option value="data">Pengolahan Data</option>
+                    <option value="ai">Pengenalan Artificial Intelligence</option>
+                </select>
+            </p>
+            <p>
+                <label for="sesi">Waktu Workshop</label>
+                <select id="sesi" name="sesi">
+                    <option value="">-- Pilih sesi --</option>
+                    <option value="pagi">Sesi Pagi (09.00–12.00)</option>
+                    <option value="siang">Sesi Siang (13.00–16.00)</option>
+                </select>
+            </p>
+            <p class="pilihan">Metode keikutsertaan:
+                <label><input type="radio" name="metode" value="offline" /> Tatap muka</label>
+                <label><input type="radio" name="metode" value="online" /> Online</label>
+            </p>
+            <p>
+                <label for="catatan">Catatan tambahan (opsional)</label>
+                <textarea id="catatan" name="catatan" rows="4" cols="30"></textarea>
+            </p>
+            <p class="pilihan">
+                <label><input type="checkbox" name="persetujuan" value="setuju" /> Saya bersedia menerima informasi workshop.</label>
+            </p>
+            <p class="tombol">
+                <input type="submit" value="Daftar Workshop" />
+                <input type="reset" value="Reset Formulir" />
+            </p>
+        </form>
+        <p class="catatan">Pastikan semua data sudah sesuai sebelum pendaftaran dikirim.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Organisasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="formulir">
+        <h1>Pendaftaran Organisasi</h1>
+        <p class="pembuka">Isi formulir ini jika kamu ingin bergabung, belajar hal baru, dan ikut berkontribusi dalam kegiatan organisasi.</p>
+        <form action="#" method="post">
+            <h2>Data Diri</h2>
+            <p>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" />
+            </p>
+            <p>
+                <label for="npm">NPM / Nomor Induk</label>
+                <input type="text" id="npm" name="npm" />
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" />
+            </p>
+            <p>
+                <label for="telepon">Nomor Telepon</label>
+                <input type="text" id="telepon" name="telepon" />
+            </p>
+            <h2>Informasi Organisasi</h2>
+            <p>
+                <label for="organisasi">Pilihan Organisasi</label>
+                <select id="organisasi" name="organisasi">
+                    <option value="">-- Pilih organisasi --</option>
+                    <option value="bem">Badan Eksekutif Mahasiswa</option>
+                    <option value="hima">Himpunan Mahasiswa</option>
+                    <option value="ukm">Unit Kegiatan Mahasiswa</option>
+                    <option value="lainnya">Lainnya</option>
+                </select>
+            </p>
+            <p>
+                <label for="alasan">Alasan Bergabung</label>
+                <textarea id="alasan" name="alasan" rows="4" cols="30"></textarea>
+            </p>
+            <p class="pilihan">Pengalaman organisasi:
+                <label><input type="radio" name="pengalaman" value="pernah" /> Pernah</label>
+                <label><input type="radio" name="pengalaman" value="belum" /> Belum pernah</label>
+            </p>
+            <p class="pilihan">
+                <label><input type="checkbox" name="persetujuan" value="setuju" /> Data yang saya isi sudah benar.</label>
+            </p>
+            <p class="tombol">
+                <input type="submit" value="Kirim Pendaftaran" />
+                <input type="reset" value="Hapus Isian" />
+            </p>
+        </form>
+        <p class="catatan">Periksa kembali data sebelum mengirim formulir.</p>
+    </div>
+</body>
+</html>
